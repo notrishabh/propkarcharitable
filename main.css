@@ -1,0 +1,312 @@
+html{
+  background: #BACDCF;
+}
+body{
+  margin: 0%;
+}
+
+/* -------------NAVBAR------------- */
+#btn1,#btn2,#btn3,#btn4,#btn5 {
+    background-color: #278ea5;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    /* flex: 1; */
+    font-size: 16px;
+    /* border: solid rgb(73, 60, 60); */
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    margin: 0px 0px;
+    font-family: quicksand;
+    font-size: 20px;
+    
+  }
+  #btn1 {
+    border-bottom-left-radius: 30px;
+  }
+  #btn5 {
+    border-bottom-right-radius: 30px;
+  }
+
+  #btn1:hover,#btn2:hover,#btn3:hover,#btn4:hover,#btn5:hover{
+    background-color: #1f4287;
+    color: white;
+  }
+
+  #navbar
+  {
+    clear: both;
+    /* position: relative; */
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-around;
+    /* float: left; */
+    /* align-self: center; */
+    /* padding-left: 5%;
+    padding-right: 5%; */
+    height: 71px;
+    width: 50%;
+    display: flex;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background: #278ea5;
+    mix-blend-mode: normal;
+  }
+
+/* ===========NAVBAR============ */
+
+
+/* ----------SLIDESHOW--------- */
+img{
+    width: 100%;
+    height: 500px;
+  }
+
+.slides{
+    display: none;
+}
+
+#slideshow{
+    width: 100%;
+    position: relative;
+    margin-top: 50px;
+    margin-right: 0px;
+    border: solid BACDCF;
+    border-radius: 5px;
+}
+
+/* .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  } */
+
+  /* .next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  } */
+
+/* .caption{
+  color: #f2f2f2;
+  font-size: 20px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+} */
+
+.slides {
+    /* -webkit-animation-name: fade;
+    -webkit-animation-duration: 2s; */
+    animation-name: fade;
+    animation-duration: 4s;
+  }
+  
+  /* @-webkit-keyframes fade {
+    from {width: 100%} 
+    to {width: 0%}
+  } */
+  
+  @keyframes fade {
+    from {opacity: 0.4} 
+    to {opacity: 1}
+  }
+/* ========SLIDESHOW======== */
+
+  h1{
+      /* position: absolute; */
+      /* width: 788px; */
+      height: 79px;
+      font-family: trebuchet MS;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 64px;
+      line-height: 79px;
+      color: #000000;
+
+      mix-blend-mode: hard-light;
+    }
+
+  body
+  {
+    margin: -20px 0px 50px 0px;
+  }
+  #info
+  {
+    margin: 2% 20% 50px 20%;
+    text-align: justify;
+    background: #ffffff;
+    padding: 20px;
+    box-shadow: 5px 5px grey;
+    font-size: 26px;
+  }
+
+  #matter
+  {
+    max-width: 1300px;
+    margin: auto;
+    
+  }
+  #heading
+  {
+    float: left;
+    width: 100%;
+    height: 134px;
+    margin: auto;
+    text-align: center;
+    background: rgb(128, 214, 201);
+    mix-blend-mode: soft-light;
+    
+  }
+  #heading h1{
+    font-family: Righteous;
+font-style: normal;
+font-weight: normal;
+font-size: 64px;
+line-height: 79px;
+  }
+  #info h2{
+    font-size: 50px;
+  }
+
+/* -------Social Media Buttons------- */
+ #social
+ {
+   /* border-top: solid black; */
+  clear: both;
+    /* position: relative; */
+    margin-left: auto;
+    margin-right: auto;
+  width: 20%;
+  height: 50px;
+  display: flex;
+  
+  background: #BACDCF;
+  border-radius: 0px 0px 30px 30px;
+ }
+ .fa
+ {
+   justify-content: space-between;
+  clear: both;
+    /* position: relative; */
+    margin-left: auto;
+    margin-right: auto;
+  padding: 10px 5px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  flex: 1;
+  
+  left: 80%;
+  bottom: 100px;
+ }
+ .fa:hover {
+  opacity: 0.7;
+}
+ .fa-facebook
+ {
+  background: #3B5998;
+  color: white;
+  border-bottom-left-radius: 30px;
+ }
+ .fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+ .fa-google {
+  background: rgb(245, 73, 60);
+  color: white;
+  border-bottom-right-radius: 30px;
+}
+/* ======Social Media Buttons====== */
+
+#line
+{
+  margin-top: 50px;
+  border: 2px solid #000000;
+  border-radius: 30px;
+}
+#about h1
+{
+  font-family: Quicksand;
+font-style: normal;
+font-weight: normal;
+font-size: 64px;
+line-height: 80px;
+text-decoration-line: underline;
+
+color: #000000;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#about p{
+  font-family: Rakkas;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 45px;
+
+color: #000000;
+}
+
+#end {
+  background: #C38D9E;
+  position: relative;
+  display: flex;
+  align-content: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-family: PT Sans;
+}
+#address h2{
+  text-decoration-line: underline;
+}
+#address
+{ 
+  flex: 2;
+  /* align-self: center; */
+  display: flex;
+}
+#contact h2{
+  text-decoration-line: underline;
+}
+
+#logo
+{
+  max-height: 143px;
+  max-width: 150px;
+  margin-left: 10px;
+}
+#contact
+{
+  /* flex: 1; */
+  /* align-self: center; */
+  /* display: inline-block; */
+  display: flex;
+}
+#dp
+{
+  max-height: 143px;
+  max-width: 150px;
+  margin-right: 10px;
+
+}

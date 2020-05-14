@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <title>Videos</title>
+    <head>
+        <link rel="stylesheet" href="video/skin/skin.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <style>
+            body { font: 12px "Myriad Pro", "Lucida Grande", sans-serif; text-align: center; padding-top: 5%; }
+            .flowplayer { width: 80%; }
+            html{
+            background: #BACDCF;
+            }
+            .home
+            {
+                background-color: rgb(18, 105, 219);
+                color: white;
+                border: none;
+                padding: 15px 20px;
+                position: absolute;
+                cursor: pointer;
+                font-size: 16px;
+                right: 10%;
+                top: 0px;
+                text-decoration: none;
+            }
+            .home:hover{
+                background-color: rgb(18, 18, 117);
+            }
+            .videoTitle
+            {
+                margin: 10px;
+                position: relative;
+                font-size: 36px;
+                font-family: Trebuchet MS;
+                text-align: left;
+                margin-left: 10%;
+            }
+
+            .other
+            {
+                text-align: left;
+                margin: 10%;
+                font-size: 32px;
+                font-family: impact;
+                border-top: solid black;
+                padding-top: 2%;
+            }
+            .other a
+            {
+                
+                display: flex;
+                margin-top: 5%;
+                font-size: 20px;
+                color: rgb(19, 67, 139);
+                text-decoration: none;
+            }
+            .other a:hover
+            {
+                color: rgb(56, 197, 178);
+            }
+        </style>
+        <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+        <script src="video/flowplayer.min.js"></script>
+    </head>
+    
+    <body>
+        <a href="index.html" class="home"><i class="fa fa-home"></i>Home</a>
+        <div class="flowplayer" data-swf="flowplayer.swf" data-ratio="0.4167">
+            <video>
+               <!-- <source type="video/webm" src="#"> -->
+               <source type="video/mp4" src="videos/3.mp4">
+            </video>
+         </div>
+         <div class="videoTitle">Feeding the poor</div>
+         <div class="other">Other Videos
+             <div><a href="video1.html"><li>Distributing Tea & Biscuits</li></a></div>
+             <div><a href="video2.html"><li>Donating blankets</li></a></div>
+             <div><a href="video4.html"><li>Langar seva in front of AIIMS</li></a></div>
+         </div>
+    </body>
+</html>
