@@ -1,5 +1,5 @@
 html{
-  background: #BACDCF;
+  background: ;
 }
 body{
   margin: 0%;
@@ -9,7 +9,7 @@ body{
 #btn1,#btn2,#btn3,#btn4,#btn5 {
     background-color: #278ea5;
     border: none;
-    color: white;
+    color: black;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -32,7 +32,7 @@ body{
   }
 
   #btn1:hover,#btn2:hover,#btn3:hover,#btn4:hover,#btn5:hover{
-    background-color: #1f4287;
+    background-color: #97361c;
     color: white;
   }
 
@@ -251,15 +251,15 @@ font-style: normal;
 font-weight: normal;
 font-size: 64px;
 line-height: 80px;
-text-decoration-line: underline;
+//text-decoration-line: underline;
 
-color: #000000;
+color: #ff0000;
 
 text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 #about p{
-  font-family: Rakkas;
+  font-family: veranda;
 font-style: normal;
 font-weight: normal;
 font-size: 30px;
@@ -269,7 +269,7 @@ color: #000000;
 }
 
 #end {
-  background: #C38D9E;
+  background: #004d4d;
   position: relative;
   display: flex;
   align-content: center;
@@ -277,7 +277,7 @@ color: #000000;
   padding-right: 50px;
   font-family: PT Sans;
 }
-#address h2{
+//#address h2{
   text-decoration-line: underline;
 }
 #address
@@ -286,7 +286,7 @@ color: #000000;
   /* align-self: center; */
   display: flex;
 }
-#contact h2{
+//#contact h2{
   text-decoration-line: underline;
 }
 
